@@ -1,0 +1,195 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+/* ***HEADER*** */
+.header {
+  position: fixed;
+	top: 0px;
+	width: 100%;
+	max-height: 10px;
+	min-height: 64px;
+	margin: auto;
+	overflow: hidden;
+	z-index: 2;
+  background-color: #5ea5f4;
+  }
+
+.link_h{
+		position: relative;
+		padding: 10px;
+		top: 20px;
+		text-decoration: none;
+		color: #ffffff;
+		font-size: 20px;
+		font-family: 'Expletus Sans', cursive;
+}
+.link_h:hover {
+		text-decoration: underline;
+}
+ #box {
+   position: absolute;
+   background-image: url(logo2.png);
+   background-size: 100px 80px;
+   background-repeat: no-repeat;
+   top: 0px;
+   width: 100px;
+   height: 100%;
+   right: 0px;
+ }
+/* ***END OF HEADER*** */
+
+.img_cont{
+   position: relative;
+   top: 0px;
+   width: 100%;
+   height: 500px;
+   overflow: hidden;
+ }
+ #backgroundimage {
+   background-image: url(GManimalbarn.jpg);
+   background-size:cover;
+   width:100%;
+   height:100%;
+   filter: opacity(75%);
+   z-index: -1;
+ }
+
+ #welcome{
+   position: absolute;
+   top: 40%;
+   left: 20%;
+   right: 20%;
+   font-size: 50px;
+   font-family: arial;
+   color: #000000;
+   text-align: center;
+ }
+ .socialmediatab {
+   position: absolute;
+   width: 20%;
+   height: 3em;
+   bottom: 0px;
+   left: 40%;
+ }
+ .socialmedia {
+   position: absolute;
+   height: 90%;
+   width: auto;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+   border-radius: 50%;
+   margin: 0.1em;
+   display: block;
+ }
+ #snapchat {
+  position: relative;
+  float: left;
+  left: 0%;
+ }
+ #facebook {
+   position: relative;
+   float: left;
+   left: 10%;
+ }
+ #youtube {
+   position: relative;
+   float: left;
+   left: 20%;
+ }
+  #twitter {
+    position: relative;
+   float: left;
+   left: 30%
+ }
+/* ***FOOTER*** */
+.footer {
+	  position: relative;
+	  bottom: 0;
+	  left: 0;
+	  top: 64px;
+	  width: 100%;
+	  height:30px;
+	  background-color:#5ea5f4;
+	  overflow: hidden;
+}
+
+.f_link{
+		position: relative;
+		padding: 10px;
+		top: 4px;
+		text-decoration: none;
+		color: #ffffff;
+		font-size: 12px;
+		font-family: 'Expletus Sans', cursive;
+}
+.f_link:hover {
+		text-decoration: underline;
+}
+/* ***END OF FOOTER*** */
+
+/* ***START OF MEDIA QUERIES *** */
+
+/* Tablet Screen */
+@media (max-width: 1560px) {
+
+#info_p{
+	font-size: 1.1vw;
+}
+.socialmedia{
+	width: 15%;
+}
+#info_h{
+	font-size: 2vw;
+}
+}
+@media (max-width: 1000px) {
+	.lower{
+		height: 500px;
+	}
+	.info {
+		height: 500px;
+	}
+	.aside{
+		height: 500px;
+	}
+}
+@media (max-width: 768px) {
+#info_p{
+	font-size: 10px;
+}
+.img_cont{
+	height: 400px;
+}
+#welcome{
+	font-size: 6.6vw;
+}
+.socialmediatab{
+	width: 30%;
+	left: 35%;
+}
+.sexypat{
+	height: 150px;
+}
+.aside{
+	width: 23%;
+}
+.info{
+	width: 77%;
+}
+.f_link{
+	font-size: 1.7vw;
+}
+.link_h{
+	font-size: 2vw;
+	top: 13px;
+}
+.header{
+	max-height: 10px;
+	min-height: 54px;
+}
+}

@@ -1,0 +1,278 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.header {
+  position: fixed;
+	top: 0px;
+	width: 100%;
+	max-height: 10px;
+	min-height: 64px;
+	margin: auto;
+	overflow: hidden;
+	z-index: 1;
+  background-color: #5ea5f4;
+  }
+ .link_h{
+   position: relative;
+   padding: 10px;
+   top: 20px;
+   text-decoration: none;
+   color: #ffffff;
+   font-size: 20px;
+   font-family: 'Expletus Sans', cursive;
+ }
+ .link_h:hover {
+   text-decoration: underline;
+ }
+ #box {
+   position: absolute;
+   background-image: url(logo2.png);
+   background-size: 100px 80px;
+   background-repeat: no-repeat;
+   top: 0px;
+   width: 100px;
+   height: 100%;
+   right: 0px;
+ }
+  .img_cont{
+   position: relative;
+   top: 0px;
+   width: 100%;
+   height: 500px;
+   overflow: hidden;
+ }
+ #backgroundimage {
+   background-image: url("Picture1.png");
+   background-size:cover;
+   width:100%;
+   height:100%;
+   filter: opacity(75%);
+   z-index: -1;
+ }
+
+ #welcome{
+   position: absolute;
+   top: 40%;
+   left: 20%;
+   right: 20%;
+   font-size: 50px;
+   font-family: arial;
+   color: #000000;
+   text-align: center;
+ }
+ .socialmediatab {
+   position: absolute;
+   width: 20%;
+   height: 3em;
+   bottom: 0px;
+   left: 40%;
+ }
+ .socialmedia {
+   position: absolute;
+   height: 90%;
+   width: auto;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+   border-radius: 50%;
+   margin: 0.1em;
+   display: block;
+ }
+ #snapchat {
+  position: relative;
+  float: left;
+  left: 0%;
+ }
+ #facebook {
+   position: relative;
+   float: left;
+   left: 10%;
+ }
+ #youtube {
+   position: relative;
+   float: left;
+   left: 20%;
+ }
+  #twitter {
+    position: relative;
+   float: left;
+   left: 30%
+ }
+
+ .lower {
+   position: relative;
+   top: 0px;
+   height: 600px;
+   width: 100%;
+ }
+
+ .info{
+   position: absolute;
+   width: 80%;
+   height: 600px;
+   background-color: #efefef;
+   font-family: arial;
+ }
+ .news{
+  position: absolute;
+  width: 20%;
+  right: 0;
+  height: 600px;
+  background-color: #dddbdb;
+  border-style: solid;
+  border-color: #b9c2cc;
+  border-top: none;
+  border-right: none;
+  border-bottom:none;
+	overflow: hidden;
+
+}
+#n1{
+  position: relative;
+  top: 10px;
+	text-align: center;
+  color: #474747;
+  font-size:28px;
+}
+#info_h{
+  position: relative;
+  top: 10px;
+  color: #474747;
+  font-size: 28px;
+  padding-left: 10px;
+}
+
+#info_p{
+  position: relative;
+  color: #474747;
+  font-size: 18px;
+  top: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+#touchyfeely {
+  position: relative;
+  float: left;
+  top: 26px;
+	width: 40%;
+  margin-left: 10px;
+  margin-right: 10px;
+border-style: solid;
+border-color: #5ea5f4;
+}
+
+#sexypat{
+  position:relative;
+  top:10px;
+	width: 80%;
+	height: 230px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-color: #5ea5f4;
+}
+#n2{
+	color: #474747;
+	font-size: 18px;
+	padding: 10px;
+}
+.footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height:30px;
+  background-color:#5ea5f4;
+  overflow: hidden;
+}
+
+.f_link{
+	position: relative;
+	padding: 10px;
+	top: 2px;
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 12px;
+	font-family: 'Expletus Sans', cursive;
+}
+.f_link:hover {
+	text-decoration: underline;
+}
+/*media queries */
+@media (max-width: 1560px) {
+#n2 {
+	font-size: 1.1vw;
+}
+#n1{
+	font-size: 2vw;
+}
+#info_p{
+	font-size: 1.1vw;
+}
+#info_h{
+	font-size: 2vw;
+}
+.socialmedia{
+	width: 15%;
+}
+}
+@media (max-width: 1000px) {
+	.lower{
+		height: 700px;
+	}
+	.info {
+		height: 500px;
+	}
+	.news{
+		height: 500px;
+	}
+}
+@media (max-width: 768px) {
+#n2 {
+	font-size: 10px;
+}
+#info_p{
+	font-size: 10px;
+}
+.img_cont{
+	height: 400px;
+}
+#welcome{
+	font-size: 6.6vw;
+}
+.socialmediatab{
+	width: 30%;
+	left: 35%;
+}
+#sexypat{
+	height: 150px;
+}
+.news{
+	width: 23%;
+}
+.info{
+	width: 77%;
+}
+.f_link{
+	font-size: 1.7vw;
+}
+.link_h{
+	font-size: 2vw;
+	top: 13px;
+}
+.header{
+	max-height: 10px;
+	min-height: 54px;
+}
+}
+	@media (max-width: 400px) {
+		.news{
+			height: 700px;
+		}
+	}

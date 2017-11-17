@@ -1,0 +1,59 @@
+.lower {
+   position: relative;
+   top: 65px;
+   height: 800px;
+   width: 100%;
+ }
+
+ .info{
+   position: absolute;
+   width: 100%;
+   height: 820px;
+   background-color: #efefef;
+   font-family: arial;
+ }
+.images{
+	height: 200px;
+	width: 300px;
+	margin: 20px;
+	border: 2px solid #5ea5f4;
+	z-index: 1;
+	position: relative;
+	float: left;
+}
+#p1:hover {
+	transform: scale(1.2);
+}
+#p2:hover{
+	transform: scale(1.2);
+}
+#p3:hover{
+	transform: scale(1.2);
+}
+#p4:hover{
+	transform: scale(1.2);
+}
+#p5:hover{
+	transform: scale(1.2);
+}
+#p6:hover{
+	transform: scale(1.2);
+}
+#p7:hover{
+	transform: scale(1.2);
+}
+#p8:hover{
+	transform: scale(1.2);
+}
+#p9:hover{
+	transform: scale(1.2);
+}
+#p10:hover{
+	transform: scale(1.2);
+}
+#p11:hover{
+	transform: scale(1.2);
+}
+#p12:hover{
+	transform: scale(1.2);
+}

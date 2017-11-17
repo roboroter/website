@@ -1,0 +1,139 @@
+  .lower {
+   position: relative;
+   top: 0px;
+   height: 950px;
+   width: 100%;
+ }
+
+ .info{
+   position: absolute;
+   width: 80%;
+   height: 1290px;
+   background-color: #efefef;
+   font-family: arial;
+ }
+ .aside{
+  position: absolute;
+  width: 20%;
+  right: 0;
+  height: 1290px;
+  background-color: #dddbdb;
+  border-style: solid;
+  border-color: #b9c2cc;
+  border-top: none;
+  border-right: none;
+  border-bottom:none;
+	overflow: hidden;
+
+}
+#info_h{
+  position: relative;
+  top: 10px;
+  color: #474747;
+  font-size: 28px;
+  padding-left: 10px;
+}
+
+#info_p{
+  position: relative;
+  color: #474747;
+  font-size: 18px;
+  top: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+#info_p2{
+  position: relative;
+  color: #474747;
+  font-size: 18px;
+  top: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+	font-family: arial;
+}
+
+#info_sh{
+	font-size: 22px;
+}
+#info_sh2{
+  font-size: 22px;
+}
+#lamb {
+  position: relative;
+  float: left;
+  top: 26px;
+	width: 40%;
+  margin-left: 10px;
+  margin-right: 10px;
+		border-style: solid;
+	border-color: #5ea5f4;
+}
+#staff-image{
+	position: relative;
+	width: 40%;
+	height: auto;
+	margin-left: 10px;
+  margin-right: 10px;
+	border-style: solid;
+	border-color: #5ea5f4;
+}
+#staffhelp-image {
+	position: relative;
+	width: 30%;
+	border-style: solid;
+	border-color: #5ea5f4;
+}
+
+.sexypat{
+  position:relative;
+  top:10px;
+	margin-bottom: 15px;
+	width: 80%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-color: #5ea5f4;
+}
+@media (max-width: 2560px) and (min-width: 1921px){
+  .lower {
+    height: 1500px;
+  }
+  #info_p2{
+    top: 100px;
+  }
+  #staff-image{
+    top: 400px;
+    left: 0;
+  }
+.info{
+    height: 1590px;
+  }
+.aside{
+      height: 1590px;
+    }
+}
+@media (max-width: 1920px) {
+  .lower {
+    height: 1200px;
+  }
+}
+
+@media (max-width: 1560px) {
+	#info_h{
+		font-size: 2vw;
+	}
+	#info_p2{
+	font-size: 1.1vw;
+  top: 20px;
+}
+}
+@media (max-width: 768px) {
+	#info_h{
+		font-size: 20px;
+}
+	#info_p2{
+	font-size: 10px;
+}
+}
