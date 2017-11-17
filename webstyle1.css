@@ -227,10 +227,10 @@ border-color: #5ea5f4;
 		height: 700px;
 	}
 	.info {
-		height: 500px;
+		height: 700px;
 	}
 	.news{
-		height: 500px;
+		height: 700px;
 	}
 }
 @media (max-width: 768px) {
