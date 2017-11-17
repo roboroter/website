@@ -57,3 +57,43 @@
 #p12:hover{
 	transform: scale(1.2);
 }
+@media (max-width: 1376px){
+	.images {
+		height: 180px;
+		width: 270px;
+	}
+}
+@media (max-width: 1256px){
+	.images {
+		height: 150px;
+		width: 225px;
+	}
+}
+@media (max-width: 808px) {
+	.lower {
+		height: 1200px;
+	}
+	.info {
+		height: 1220px;
+	}
+}
+@media (max-width: 538px) {
+	.images {
+		width: 150px;
+		height: 100px;
+	}
+	.lower {
+		height: 1000px;
+	}
+	.info {
+		height: 1020px;
+	}	
+}
+@media (max-width: 386px) {
+	.lower {
+		height: 1750px;
+	}
+	.info {
+		height: 1770px;
+	}
+}

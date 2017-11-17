@@ -1,0 +1,36 @@
+.lower {
+   position: relative;
+   top: 65px;
+   height: 800px;
+   width: 100%;
+ }
+
+ .info{
+   position: absolute;
+   width: 100%;
+   height: 820px;
+   background-color: #efefef;
+   font-family: arial;
+ }
+      #map {
+		margin-left: 10%;
+		margin-top: 20px;
+        width: 80%;
+        height: 400px;
+        background-color: grey;
+      }
+#info_h {
+	text-align: center;
+ 	color: #474747;
+  	font-size: 28px;
+}
+#info_sh {
+	text-align: center;
+ 	color: #474747;
+  	font-size: 28px;
+}
+#info_p {
+	text-align: center;
+ 	color: #474747;
+  	font-size: 20px;	
+}

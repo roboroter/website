@@ -12,7 +12,7 @@ html, body {
 	min-height: 64px;
 	margin: auto;
 	overflow: hidden;
-	z-index: 1;
+	z-index: 3;
   background-color: #5ea5f4;
   }
  .link_h{
@@ -276,3 +276,11 @@ border-color: #5ea5f4;
 			height: 700px;
 		}
 	}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	#welcome{
+		z-index: 2;
+	}
+	#info_p {
+		top: 26px;
+	}
+}
