@@ -1,14 +1,14 @@
 .lower {
    position: relative;
-   top: 65px;
-   height: 800px;
+   top: 0px;
+   height: 1000px;
    width: 100%;
  }
 
  .info{
    position: absolute;
    width: 100%;
-   height: 820px;
+   height: 1070px;
    background-color: #efefef;
    font-family: arial;
  }
@@ -20,6 +20,7 @@
         background-color: grey;
       }
 #info_h {
+    padding-top: 5rem;
 	text-align: center;
  	color: #474747;
   	font-size: 28px;
@@ -28,6 +29,8 @@
 	text-align: center;
  	color: #474747;
   	font-size: 28px;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
 }
 #info_p {
 	text-align: center;
@@ -42,3 +45,55 @@
    filter: opacity(75%);
    z-index: -1;
  }
+#summer {
+	text-align: center;
+ 	color: #474747;
+  	font-size: 24px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+#winter {
+	text-align: center;
+ 	color: #474747;
+  	font-size: 24px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;    
+}
+#times-2 {
+	text-align: center;
+ 	color: #474747;
+  	font-size: 20px;	
+}
+.hidden {
+    display: none;
+}
+button {
+    background-color: #5ea5f4;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin-top: 2rem;
+}
+button:hover {
+    cursor: pointer;
+}
+.button {
+    width: 20rem;
+}
+#buttondiv {
+    width: 40.4rem;
+    margin: 0 auto;
+}
+#timeInfo {
+    text-align: center;
+    color: #474747;
+    font-size: 24px;
+    margin-top: 3rem;
+}
+#season {
+    display: inline;
+}

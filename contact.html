@@ -51,12 +51,46 @@
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key= AIzaSyA-1OeWmGT11WyVBQ5XasAKAl4HLu-gWdQ &callback=initMap">
     </script>
-
+            <div id="buttondiv">
+                <button id="summerBtn" class="button">Summer</button>
+                <button id="winterBtn" class="button">Winter</button>
+            </div>
 			<h2 id="info_sh">Opening Times</h2>
-			<h3 id="info_p">Mon: 9:00 - 5:00 <br>Tue: 9:00 - 5:00<br>Wed: 9:00 - 5:00<br>Thu: 9:00 - 5:00<br>Fri: 9:00 - 2:00<br>Sat: 10:00 - 8:00<br>Sun: 10:00 - 8:00</h3>
-
+            <div id="summerTimes"><h3 id="summer">Summer</h3>
+			<h3 id="info_p">Mon: 9:00 - 5:00 <br>Tue: 9:00 - 5:00<br>Wed: 9:00 - 5:00<br>Thu: 9:00 - 5:00<br>Fri: 9:00 - 2:00<br>Sat: 10:00 - 8:00<br>Sun: 10:00 - 8:00</h3></div>
+            <div id="winterTimes"><h3 id="winter">Winter</h3>
+            <h3 id="times-2">Mon: 10:00 - 3:00 <br>Tue: 10:00 - 3:00<br>Wed: 10:00 - 3:00<br>Thu: 10:00 - 3:00<br>Fri: 10:00 - 2:00<br>Sat: 10:00 - 6:00<br>Sun: 10:00 - 6:00</h3></div>
+            
 			</div>
 	 </div>
+     <script>
+         var sBtn = document.getElementById("summerBtn");
+         var wBtn = document.getElementById("winterBtn");
+         var st = document.getElementById("summerTimes");
+         var wt = document.getElementById("winterTimes");
+         var month = new Date().getMonth();
+         
+         var LASTMONTHOFWINTER = 3;
+         var FIRSTMONTHOFWINTER = 10;
+         
+         
+         sBtn.addEventListener("click", function(event) {
+             st.classList.remove("hidden");
+             wt.classList.add("hidden");
+         })
+         
+         wBtn.addEventListener("click", function(event) {
+             st.classList.add("hidden");
+             wt.classList.remove("hidden");
+         })
+         
+         if (month <= LASTMONTHOFWINTER || month >= FIRSTMONTHOFWINTER) {
+             st.classList.add("hidden");
+         }
+         else {
+             wt.classList.add("hidden");
+         }
+     </script>
 
 <footer>
   <div class="footer">
