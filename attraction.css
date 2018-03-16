@@ -1,6 +1,6 @@
 .lower {
    position: relative;
-   top: 50px;
+   top: 0px;
    height: 2800px;
    width: 100%;
  }
@@ -42,8 +42,8 @@
   top: 26px;
 	width: 40%;
   margin-left: 10px;
-	margin-bottom: 10px;
   margin-right: 10px;
+	margin-bottom: 10px;
 border-style: solid;
 border-color: #5ea5f4;
 }
@@ -199,6 +199,14 @@ border-color: #5ea5f4;
 #walk {
 	margin-top: 100px;
 }
+#backgroundimage2 {
+	background-image: url(easter-petting-zoo-fw-889x445.jpg);
+	background-size:cover;
+    width:100%;
+    height:100%;
+    filter: opacity(75%);
+    z-index: -1;
+}
 
   @media (max-width: 1560px) {
     #images, #images2, #images3 {
@@ -235,13 +243,13 @@ border-color: #5ea5f4;
     }
     @media (max-width: 600px) {
       #images, #images2, #images3 {
-        height: 60px;
+        height: 200px;
       }
+		.imagethings {
+			height: 40%;
+		}
       }
       @media (max-width: 500px) {
-        #images, #images2, #images3 {
-          height: 40px;
-        }
         .lower {
           height: 2700px;
         }

@@ -13,15 +13,75 @@
      <a class="link_h" href="about.html">About</a>
      <a class="link_h" href="attraction.html">Attractions</a>
      <a class="link_h" href="gallery.html">Gallery</a>
-     <a class="link_h" href="contact.html">Contact Us</a>
-
+       <a class="link_h" href="contact.html">Contact Us</a>
+       
+       <div id="search"><script>
+  (function() {
+    var cx = '009096584089933902301:glikggecqms';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search></div>
+       
     <div id="box"></div>
    </div>
    <div class="img_cont">
        <h1 id="welcome">
    Welcome To Borders Petting Zoo
    </h1>
-   <div id="backgroundimage"></div>
+   <div id="player"></div>
+    <script>
+      // 1. This code loads the IFrame Player API code asynchronously.
+      var tag = document.createElement('script');
+
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+      // 2. This function creates an <iframe> (and YouTube player)
+      //    after the API code downloads.
+      var player;
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+          height: 'auto',
+          width: '100%',
+          playerVars: {
+                    autoplay: 1,
+                    loop: 1,
+                    controls: 0,
+                    showinfo: 0,
+                    autohide: 1,
+			  		disablekb: 1,
+                    modestbranding: 1,
+                    vq: 'hd1080'},
+          videoId: 'eSq300sTsMw',
+          events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+          }
+        });
+      }
+
+      // 3. The API will call this function when the video player is ready.
+      function onPlayerReady(event) {
+        event.target.playVideo();
+        player.mute();
+      }
+
+      var done = false;
+      function onPlayerStateChange(event) {
+        
+      }
+      function stopVideo() {
+        player.stopVideo();
+      }
+    </script>
+    
    <div class="socialmediatab">
      <a href="http://www.snapchat.com" target="_blank"><img src="sc.png" class="socialmedia" id="snapchat"></a>
      <a href="http://en-gb.facebook.com/" target="_blank"><img src="https://facebookbrand.com/wp-content/themes/fb-branding/prj-fb-branding/assets/images/fb-art.png" class="socialmedia" id="facebook"></a>
